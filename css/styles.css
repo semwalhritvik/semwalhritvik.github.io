@@ -3600,30 +3600,6 @@ input[type="button"].btn--primary:focus {
     width: 100%;
 }
 
-.s-hero__scroll-link .scroll-arrow {
-    display: block;
-    width: var(--vspace-1);
-    height: var(--vspace-1);
-    margin-right: 1.6rem;
-    border-radius: 50%;
-    border: 2px solid white;
-    position: relative;
-}
-
-.s-hero__scroll-link .scroll-arrow svg {
-    height: 2rem;
-    width: 2rem;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -50%, 0);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
-
-.s-hero__scroll-link .scroll-arrow svg path {
-    fill: white;
-}
-
 .s-hero__scroll-link .scroll-text {
     position: relative;
 }
@@ -3764,9 +3740,6 @@ input[type="button"].btn--primary:focus {
 }
 
 @media screen and (max-width: 360px) {
-    .s-hero__scroll-link .scroll-arrow {
-        display: none;
-    }
 }
 
 
