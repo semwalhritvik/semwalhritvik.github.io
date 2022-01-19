@@ -3247,13 +3247,14 @@ input[type="button"].btn--primary:focus {
  * ## mobile menu toggle 
  * ------------------------------------------------------------------- */
 .s-header__menu-toggle {
+    opacity: 70%;
     display: none;
     font-family: var(--font-1);
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .4rem;
-    background-color: var(--color-2);
-    color: white;
+    background-color: black;
+    color: var(--color-1);
     width: var(--header-height);
     height: var(--header-height);
     line-height: var(--header-height);
@@ -3269,7 +3270,7 @@ input[type="button"].btn--primary:focus {
     margin-top: -1px;
     right: auto;
     bottom: auto;
-    background-color: white;
+    background-color: var(--color-1);
     position: absolute;
     left: 19px;
     top: 50%;
