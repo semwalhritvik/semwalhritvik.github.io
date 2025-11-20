@@ -101,7 +101,7 @@ export const Experience = () => {
 
                       <div className="mb-6">
                         <ul className="space-y-2">
-                          {role.achievements.map((achievement, achIndex) => (
+                          {role.role.map((achievement, achIndex) => (
                             <li key={achIndex} className="text-sm text-foreground/90 flex gap-2">
                               <span className="text-primary mt-1.5">•</span>
                               <span>{achievement}</span>
@@ -153,7 +153,7 @@ export const Experience = () => {
 
                   <div className="mb-6">
                     <ul className="space-y-2">
-                      {role.achievements.map((achievement, achIndex) => (
+                      {role.role.map((achievement, achIndex) => (
                         <li key={achIndex} className="text-sm text-foreground/90 flex gap-2">
                           <span className="text-primary mt-1.5">•</span>
                           <span>{achievement}</span>
