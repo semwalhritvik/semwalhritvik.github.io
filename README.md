@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+# Welcome to your Lovable project
 
-You can use the [editor on GitHub](https://github.com/semwalhritvik/semwalhritvik.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Project info
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**URL**: https://lovable.dev/projects/40aaf62a-693a-47fb-905c-a9fab1c6f4c0
 
-### Markdown
+## How can I edit this code?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+There are several ways of editing your application.
 
-```markdown
-Syntax highlighted code block
+**Use Lovable**
 
-# Header 1
-## Header 2
-### Header 3
+Simply visit the [Lovable Project](https://lovable.dev/projects/40aaf62a-693a-47fb-905c-a9fab1c6f4c0) and start prompting.
 
-- Bulleted
-- List
+Changes made via Lovable will be committed automatically to this repo.
 
-1. Numbered
-2. List
+**Use your preferred IDE**
 
-**Bold** and _Italic_ and `Code` text
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-[Link](url) and ![Image](src)
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Edit a file directly in GitHub**
 
-### Jekyll Themes
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/semwalhritvik/semwalhritvik.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Use GitHub Codespaces**
 
-### Support or Contact
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/40aaf62a-693a-47fb-905c-a9fab1c6f4c0) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
