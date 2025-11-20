@@ -43,7 +43,7 @@ export const projects: Project[] = [
     links: {
       github: "https://github.com/semwalhritvik/credit-risk-prediction",
     },
-    featured: true,
+    featured: false,
     year: 2025,
   },
   {
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     category: "nlp",
     tags: ["NLP", "TensorFlow", "MLOps", "Docker", "GCP"],
     impact: "Achieved 95% detection accuracy against paraphrasing; scalable production deployment",
-    status: "Completed",
+    status: "In Progress",
     links: {
       github: "https://github.com/semwalhritvik/watermarkd",
     },
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     links: {
       github: "https://github.com/semwalhritvik/algorhythm",
     },
-    featured: true,
+    featured: false,
     year: 2025,
   },
   // {
