@@ -48,7 +48,7 @@ export const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-accent-cyan/20 to-accent-cyan-light/20 rounded-2xl blur-2xl" />
               <div className="relative w-full h-full bg-secondary border-2 border-accent-cyan/30 rounded-2xl overflow-hidden hover-glow transition-all">
                 <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  {/* Placeholder for photo */}
+                  <img src="/profile.png"></img>
                   <div className="text-center">
                     <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-accent-cyan/10 flex items-center justify-center">
                       <span className="text-4xl font-bold text-accent-cyan">HS</span>

@@ -42,7 +42,7 @@ export const skillsData: SkillCategory[] = [
     category: "Soft Skills",
     skills: [
       { name: "Leadership", level: 90, icon: "users" },
-      { name: "Communication", level: 85, icon: "message-circle" },
+      { name: "Communication", level: 90, icon: "message-circle" },
       { name: "Cross-functional Collaboration", level: 90, icon: "handshake" },
       { name: "Problem Solving", level: 95, icon: "lightbulb" },
     ],

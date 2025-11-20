@@ -2,7 +2,7 @@ export interface Role {
   title: string;
   duration: string;
   location: string;
-  achievements: string[];
+  role: string[];
   tags: string[];
 }
 
@@ -21,10 +21,8 @@ export const experiences: Experience[] = [
         title: "Unit Manager",
         duration: "Jan 2024 - Aug 2024",
         location: "Pune, India",
-        achievements: [
-          "Led cross-functional team implementing ML-driven loan routing system, reducing processing time by 40%",
-          "Developed executive dashboards tracking $500M+ loan portfolio performance",
-          "Mentored 5 junior analysts in data engineering and ML best practices",
+        role: [
+          "Focused on driving revenue recovery by building predictive routing models for rejected loan applications and automating critical ETL processes to enhance reporting efficiency and reduce costs",
         ],
         tags: ["Leadership", "Azure", "Python", "Databricks"],
       },
@@ -32,10 +30,8 @@ export const experiences: Experience[] = [
         title: "Executive",
         duration: "Jun 2023 - Dec 2023",
         location: "Pune, India",
-        achievements: [
-          "Built credit risk models achieving 85%+ accuracy, preventing $800K+ in potential losses",
-          "Automated ETL pipelines processing 100K+ daily transactions",
-          "Created customer segmentation models improving targeting efficiency by 30%",
+        role: [
+          "Improved customer risk assessment and approval rates by enriching customer records with diverse data sources, and refined credit policies using statistical and clustering models to identify new safe lending opportunities",
         ],
         tags: ["ML", "SQL", "Risk Modeling", "ETL"],
       },
@@ -43,10 +39,8 @@ export const experiences: Experience[] = [
         title: "Data Technology Trainee",
         duration: "Jan 2022 - May 2023",
         location: "Pune, India",
-        achievements: [
-          "Developed churn prediction model with 78% precision",
-          "Created automated reporting systems saving 20+ hours weekly",
-          "Implemented data governance practices across department",
+        role: [
+          "Optimized marketing expenditures and customer retention by building advanced probabilistic and ensemble models, and automated manual call logging with NLP and time series forecasting to boost conversion rates",
         ],
         tags: ["Python", "Machine Learning", "Data Analysis"],
       },
