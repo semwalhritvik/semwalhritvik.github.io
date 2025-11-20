@@ -12,7 +12,7 @@ export const Projects = () => {
       : projects.filter((project) => project.category === activeCategory);
 
   return (
-    <section id="projects" className="py-20 relative">
+    <section id="projects" className="py-20 relative overflow-hidden">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -52,10 +52,14 @@ export const Projects = () => {
           ))}
         </motion.div>
 
-        {/* Horizontal Scrolling Container */}
-        <div className="relative">
+        {/* Horizontal Scrolling Container - UPDATED STRUCTURE */}
+        <div className="relative -mx-6">
+          {/* Gradient Overlays - Moved BEFORE scroll container */}
+          <div className="hidden md:block absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-background via-background/95 to-transparent pointer-events-none z-10" />
+          <div className="hidden md:block absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-background via-background/95 to-transparent pointer-events-none z-10" />
+          
           {/* Scroll Container */}
-          <div className="overflow-x-auto scrollbar-hide pb-8 -mx-6 px-6">
+          <div className="overflow-x-auto scrollbar-hide pb-8 px-6">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -77,10 +81,6 @@ export const Projects = () => {
               ))}
             </motion.div>
           </div>
-
-          {/* Scroll Hint Gradients */}
-          <div className="hidden md:block absolute top-0 right-0 bottom-8 w-24 bg-gradient-to-l from-background to-transparent pointer-events-none" />
-          <div className="hidden md:block absolute top-0 left-0 bottom-8 w-24 bg-gradient-to-r from-background to-transparent pointer-events-none" />
         </div>
 
         {/* Mobile Note */}

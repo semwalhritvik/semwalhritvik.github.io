@@ -27,13 +27,27 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       >
         {/* Thumbnail */}
         <div className="relative h-[300px] bg-secondary/50 overflow-hidden">
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.3 }}
-            className="w-full h-full bg-gradient-to-br from-primary/20 to-purple-500/20 flex items-center justify-center"
-          >
-            <div className="text-6xl opacity-20">📊</div>
-          </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+          className="w-full h-full"
+        >
+          <img 
+            src={project.thumbnail} 
+            alt={project.title}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              console.log('Failed to load:', project.thumbnail);
+              // Fallback to placeholder
+              e.currentTarget.style.display = 'none';
+              e.currentTarget.parentElement!.innerHTML = `
+                <div class="w-full h-full bg-gradient-to-br from-primary/20 to-purple-500/20 flex items-center justify-center">
+                  <div class="text-6xl opacity-20">📊</div>
+                </div>
+              `;
+            }}
+          />
+        </motion.div>
           
           {/* View Details Overlay */}
           <div className="absolute inset-0 bg-background/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">

@@ -18,7 +18,7 @@ export const experiences: Experience[] = [
     logo: "/logos/bajaj.png",
     roles: [
       {
-        title: "Unit Manager",
+        title: "Data Scientist",
         duration: "Jan 2024 - Aug 2024",
         location: "Pune, India",
         role: [
@@ -27,7 +27,7 @@ export const experiences: Experience[] = [
         tags: ["Leadership", "Azure", "Python", "Databricks"],
       },
       {
-        title: "Executive",
+        title: "Associate Data Scientist",
         duration: "Jun 2023 - Dec 2023",
         location: "Pune, India",
         role: [

@@ -37,7 +37,7 @@ export const Hero = () => {
             className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gradient animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Data Scientist • ML Engineer • Turning Data into Impact
+            Data Scientist • I Make Predictions That Come True
           </p>
 
           {/* Subtitle */}
